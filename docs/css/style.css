@@ -128,3 +128,59 @@
     width: 20vw;
 
 }
+
+.aboutMe {
+
+    display: flex;
+    height: 100vh;
+    background-color: black;
+
+}
+
+.aboutMe-left {
+
+    width: 90vw;
+
+}
+
+
+.aboutMe-left h1 {
+
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #F2C500;
+    text-decoration-thickness: 6px;
+    font-size: 10vh;
+    margin-top: 4%;
+    margin-left: 3%;
+
+}
+
+.aboutMe-left p {
+
+    color: white;
+    font-size: 3vh;
+    margin-left: 3%;
+    margin-top: 2%;
+
+}
+
+.buttonAboutMe {
+
+    display: inline;
+    margin-top: 8%;
+    font-size: 1vw;
+    padding: 0.5% 4%;
+    border: 3px solid #F2C500;
+    margin-left: 3%;
+    color: white;
+    background-color: black;
+    align-items: center;
+    cursor: pointer;
+}
+
+.aboutMe-right {
+
+    width: 10vw;
+
+}
