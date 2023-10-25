@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+body {
+
+    background-color: black;
+
+}
+
 
 .nav {
     height: 13vh;
@@ -184,3 +190,128 @@
     width: 10vw;
 
 }
+
+.projects {
+
+    height: 100vh;
+    background-color: black;
+
+}
+
+.projects-top {
+
+    display: flex;
+    height: 20vh;
+
+}
+
+.projects h1 {
+
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #F2C500;
+    text-decoration-thickness: 6px;
+    font-size: 10vh;
+    margin-top: 4%;
+    margin-left: 3%;
+
+}
+
+.projects-bottom {
+
+    display: flex;
+    height: auto;
+
+}
+
+.card {
+    display: inline-block;
+    width: 22vw;
+    height: auto;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 3%;
+    padding: 10px;
+    border: 3px solid #F2C500;
+    border-radius: 10%;
+}
+
+.imgButtonYellow {
+
+    width: 5vw;
+    margin-bottom: 5%;
+
+}
+
+.imgProjectAL {
+    width: 16vw;
+    margin-left: 15%;
+    height: auto;
+    border: 4px solid #F2C500;
+}
+
+.titleProject {
+
+    color: black;
+    font-size: 3vh;
+    text-align: center;
+
+
+}
+
+.border {
+    border: 1px solid #F2C500;
+    height: auto;
+
+}
+
+.buttonImg {
+
+    width: 4vw;
+    height: auto;
+
+}
+
+.gitButton {
+    background-color: white;
+    border: none;
+    padding: 0%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 13%;
+    height: auto;
+
+}
+
+.deployButton {
+    background-color: white;
+    border: none;
+    padding: 0%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 6%;
+    margin-left: 38%;
+    height: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
