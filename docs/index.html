@@ -23,7 +23,7 @@
             <a class="navProjectsLink" href="#">Landing Page</a>
             <a class="navProjectsLink" href="#">Cardápio Online</a>
             <a class="navProjectsLink" href="#">Catálogo Agulha e Linha</a>
-            <a class="navProjectsLink" href="#">Sobre mim</a>
+            <a class="navProjectsLink" onclick="redirect('aboutMe')">Sobre mim</a>
 
         </div>
 
@@ -43,7 +43,7 @@
             <h1 style="color: #F2C500;">Ryan Pereira Lima!</h1>
             <p>Sou desenvolvedor Web e apaixonado por técnologia.</p>
             <img class="lenguageElements" src="img/linguagemProgramação.png">
-            <button class="redirectAboutMe">Sobre mim</button>
+            <button class="redirectAboutMe" onclick="redirect('aboutMe')">Sobre mim</button>
 
         </div>
 
@@ -51,7 +51,7 @@
 
     </main>
 
-    <section class="aboutMe">
+    <section class="aboutMe" id="aboutMe">
 
         <div class="aboutMe-left">
 
@@ -73,8 +73,8 @@
                 após dia e uma enorme vontade de me destacar em meio ao ambiente de trabalho.
             </p>
 
-            <button class="buttonAboutMe">Contrate-me</button>
-            <button class="buttonAboutMe">Ver currículo</button>
+            <button class="buttonAboutMe" onclick="contact()">Contrate-me</button>
+            <button class="buttonAboutMe" onclick="resume()">Ver currículo</button>
 
 
         </div>
@@ -84,45 +84,53 @@
     </section>
 
     <section class="projects">
-        <div class="projects-top">        <h1>Projetos</h1>
+        <div class="projects-top">
+            <h1>Projetos</h1>
         </div>
 
         <div class="projects-bottom">
 
             <div class="card">
                 <img class="imgButtonYellow" src="img/languageLP.png">
-                    <img class="imgProjectAL" src="img/imgLP.png">
-                    <h2 class="titleProject">Landing Page</h2>
-                    <h1 class="border"></h1>
-                    <button id="gitButtonLP" class="gitButton"><img  class="buttonImg" src="img/imageGitHub.png"></button>
-                    <button id="deployButtonLP" class="gitButton"><img  class="buttonImg" src="img/imageDeploy.png"></button>
+                <img class="imgProjectAL" src="img/imgLP.png">
+                <h2 class="titleProject">Landing Page</h2>
+                <h1 class="border"></h1>
+                <button id="gitButtonLP" onclick="irGitLP()" class="gitButton"><img class="buttonImg"
+                        src="img/imageGitHub.png"></button>
+                <button id="deployButtonLP" class="gitButton"><img class="buttonImg" src="img/imageDeploy.png"></button>
             </div>
 
             <div class="card">
                 <img class="imgButtonYellow" src="img/languageAL.png">
-                    <img class="imgProjectAL" src="img/imgAL.png">
-                    <h2 class="titleProject">Agulha e Linha</h2>
-                    <h1 class="border"></h1>
-                    <button id="gitButtonAL" class="gitButton"><img  class="buttonImg" src="img/imageGitHub.png"></button>
-                    <button id="deployButtonAL" class="gitButton"><img  class="buttonImg" src="img/imageDeploy.png"></button>
+                <img class="imgProjectAL" src="img/imgAL.png">
+                <h2 class="titleProject">Agulha e Linha</h2>
+                <h1 class="border"></h1>
+                <button id="gitButtonAL" onclick="irGitAL()" class="gitButton"><img class="buttonImg"
+                        src="img/imageGitHub.png"></button>
+                <button id="deployButtonAL" onclick="irDeployAL()" class="gitButton"><img class="buttonImg"
+                        src="img/imageDeploy.png"></button>
             </div>
 
             <div class="card">
                 <img class="imgButtonYellow" src="img/languageMC.png">
-                    <img class="imgProjectAL" src="img/imgMC.png">
-                    <h2 class="titleProject">Mamma Carmela</h2>
-                    <h1 class="border"></h1>
-                    <button id="gitButtonMC" class="gitButton"><img  class="buttonImg" src="img/imageGitHub.png"></button>
-                    <button id="deployButtonMC" class="gitButton"><img  class="buttonImg" src="img/imageDeploy.png"></button>
+                <img class="imgProjectAL" src="img/imgMC.png">
+                <h2 class="titleProject">Mamma Carmela</h2>
+                <h1 class="border"></h1>
+                <button id="gitButtonMC" onclick="irGitMC()" class="gitButton"><img class="buttonImg"
+                        src="img/imageGitHub.png"></button>
+                <button id="deployButtonMC" onclick="irDeployMC()" class="gitButton"><img class="buttonImg"
+                        src="img/imageDeploy.png"></button>
             </div>
 
             <div class="card">
                 <img class="imgButtonYellow" src="img/languageCSU.png">
-                    <img class="imgProjectAL" src="img/imgCSU.png">
-                    <h2 class="titleProject">Crud Sign-Up</h2>
-                    <h1 class="border"></h1>
-                    <button id="gitButtonCSU" class="gitButton"><img  class="buttonImg" src="img/imageGitHub.png"></button>
-                    <button id="deployButtonCSU" class="gitButton"><img  class="buttonImg" src="img/imageDeploy.png"></button>
+                <img class="imgProjectAL" src="img/imgCSU.png">
+                <h2 class="titleProject">Crud Sign-Up</h2>
+                <h1 class="border"></h1>
+                <button id="gitButtonCSU" onclick="irGitCSU()" class="gitButton"><img class="buttonImg"
+                        src="img/imageGitHub.png"></button>
+                <button id="deployButtonCSU" onclick="irDeployCSU()" class="gitButton"><img class="buttonImg"
+                        src="img/imageDeploy.png"></button>
             </div>
 
         </div>
@@ -131,12 +139,41 @@
 
     <section class="contact">
 
-        <div class="contact-left"></div>
+        <div class="contact-top">
 
-        <div class="contact-right"></div>
+            <h1>Contate-me</h1>
+
+        </div>
+
+        <div class="contact-bottom">
+
+            <img src="img/imgEmail.png">
+            <p class="textsContact">ryanpereiralimads@gmail.com</p>
+
+        </div>
+        <div class="contact-bottom">
+
+            <img src="img/imgCell.png">
+            <p class="textsContact">(48) 99648-0085</p>
+
+        </div>
+        <div class="contact-bottom">
+
+            <img src="img/imgLinkedin.png">
+            <p class="textsContact">Ryan Pereira Lima</p>
+
+        </div>
+        <div class="contact-bottom">
+
+            <img src="img/imgGit.png">
+            <p class="textsContact">@ryanpzr</p>
+
+        </div>
 
     </section>
 
+
+    <script src="js/app.js"></script>
 </body>
 
 </html>
