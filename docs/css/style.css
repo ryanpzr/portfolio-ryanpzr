@@ -151,6 +151,7 @@
 
     }
 
+
     .main-right {
 
         width: 20vw;
@@ -1372,6 +1373,23 @@
 
     }
 
+
+    .redirectAboutMe:hover {
+
+        display: flex;
+        margin-top: 1%;
+        font-size: 1.5vw;
+        padding: 0.5% 4%;
+        border: 3px solid white;
+        margin-left: 3%;
+        color: white;
+        background-color: black;
+        align-items: center;
+        cursor: pointer;
+
+    }
+
+
     .main-right {
 
         width: 20vw;
@@ -1422,6 +1440,20 @@
         font-size: 1.5vw;
         padding: 0.5% 4%;
         border: 3px solid #F2C500;
+        margin-left: 3%;
+        color: white;
+        background-color: black;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .buttonAboutMe:hover {
+
+        display: inline;
+        margin-top: 8%;
+        font-size: 1.5vw;
+        padding: 0.5% 4%;
+        border: 3px solid white;
         margin-left: 3%;
         color: white;
         background-color: black;
