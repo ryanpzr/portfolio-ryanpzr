@@ -103,15 +103,15 @@
     .main-left {
 
         width: 100vw;
-        margin-top: 4%;
+        margin-top: 10%;
 
     }
 
     .main-left h1 {
 
         color: white;
-        margin-left: 3%;
-        font-size: 15vw;
+        margin-left: 0%;
+        font-size: 13vw;
         text-align: center;
 
     }
@@ -120,9 +120,9 @@
 
         color: white;
         opacity: 50%;
-        margin-left: 3%;
+        margin-left: 0%;
         margin-top: 10%;
-        font-size: 5vw;
+        font-size: 6vw;
         text-align: center;
         font-family: 'Open Sans', sans-serif;
 
@@ -131,7 +131,7 @@
     .lenguageElements {
 
         width: 90vw;
-        margin-left: 2.5%;
+        margin-left: 0%;
         margin-top: 10%;
 
     }
@@ -246,9 +246,9 @@
     .projects-bottom {
         display: flex;
         flex-direction: column;
-        /* Mude a direção do flex para uma coluna */
         align-items: center;
-        /* Centralize os cards horizontalmente */
+        margin-top: 10%;
+
     }
 
     .card {
@@ -357,6 +357,7 @@
         padding-top: 7%;
         font-size: 4vw;
         margin-left: 30%;
+        text-decoration: none;
 
     }
 
@@ -1500,6 +1501,7 @@
         height: auto;
         flex-wrap: wrap;
         flex-direction: row-reverse;
+        margin-top: 0%;
 
     }
 
@@ -1507,12 +1509,9 @@
         width: auto;
         height: auto;
         background-color: white;
-        margin-top: 5%;
-        margin-left: 0%;
         margin-right: 3.1%;
         border: 3px solid #F2C500;
         border-radius: 10%;
-        margin-bottom: 0%;
 
     }
 
