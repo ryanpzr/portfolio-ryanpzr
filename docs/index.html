@@ -34,11 +34,11 @@
 
             <div class="main-left">
 
-                <h1>Olá, meu nome é</h1>
-                <h1 style="color: #F2C500;">Ryan Pereira Lima!</h1>
-                <p>Sou desenvolvedor Web e apaixonado por técnologia.</p>
+                <h1 data-texto="mainH1">Olá, meu nome é</h1>
+                <h1 data-texto="mainH1name" style="color: #F2C500;">Ryan Pereira Lima!</h1>
+                <p data-texto="mainP">Sou desenvolvedor Web e apaixonado por técnologia.</p>
                 <img class="lenguageElements" src="img/linguagemProgramação.png">
-                <button class="redirectAboutMe" onclick="redirect('aboutMe')">Sobre mim</button>
+                <button class="redirectAboutMe" onclick="redirect('aboutMe')" data-texto="sobreMim">Sobre mim</button>
 
             </div>
 
@@ -50,8 +50,8 @@
 
             <div class="aboutMe-left" id="aboutMe">
 
-                <h1>Sobre mim...</h1>
-                <p>Olá, meu nome é Ryan e tenho 19 anos. Comecei minha jornada no mercado de trabalho como Jovem
+                <h1 data-texto="aboutMe...">Sobre mim...</h1>
+                <p data-texto="aboutMeP01">Olá, meu nome é Ryan e tenho 19 anos. Comecei minha jornada no mercado de trabalho como Jovem
                     Aprendiz
                     <br>
                     na ENGIE Brasil aos 17 anos, e tenho como objetivo de carreira trabalhar para uma empresa com o foco
@@ -60,19 +60,19 @@
                     técnologia e programação.
                 </p>
 
-                <p>Estou graduando Ciências da Computação na Universidade do Sul de Santa Catarina, e possuo
+                <p data-texto="aboutMeP02">Estou graduando Ciências da Computação na Universidade do Sul de Santa Catarina, e possuo
                     conhecimento
                     <br>
                     em desenvolvimento com HTML, CSS, JavaScript, Java, NodeJs e MySQL.
                 </p>
 
-                <p>Me reconheço como um grande entusiasta em novas tecnologias do mercado, com aprendizado adquirido dia
+                <p data-texto="aboutMeP03">Me reconheço como um grande entusiasta em novas tecnologias do mercado, com aprendizado adquirido dia
                     <br>
                     após dia e uma enorme vontade de me destacar em meio ao ambiente de trabalho.
                 </p>
 
-                <button class="buttonAboutMe" onclick="contact()">Contrate-me</button>
-                <button class="buttonAboutMe" onclick="resume()">Ver currículo</button>
+                <button class="buttonAboutMe" onclick="contact()" data-texto="hireMe">Contrate-me</button>
+                <button class="buttonAboutMe" onclick="resume()" data-texto="resume">Ver currículo</button>
 
 
             </div>
@@ -83,7 +83,7 @@
 
         <section class="projects">
             <div class="projects-top">
-                <h1>Projetos</h1>
+                <h1 data-texto="projects">Projetos</h1>
             </div>
 
             <div class="projects-bottom">
@@ -140,32 +140,32 @@
 
             <div class="contact-top">
 
-                <h1>Contate-me</h1>
+                <h1 data-texto="contact">Contate-me</h1>
 
             </div>
 
             <div class="contact-bottom">
 
                 <img src="img/imgEmail.png">
-                <p class="textsContact">ryanpereiralimads@gmail.com</p>
+                <p class="textsContact" data-texto="email">ryanpereiralimads@gmail.com</p>
 
             </div>
             <div class="contact-bottom">
 
                 <img src="img/imgCell.png">
-                <p class="textsContact">(48) 99648-0085</p>
+                <p class="textsContact" data-texto="number">(48) 99648-0085</p>
 
             </div>
             <div class="contact-bottom">
 
                 <img src="img/imgLinkedin.png">
-                <p class="textsContact">Ryan Pereira Lima</p>
+                <p class="textsContact" data-texto="linkedin">Ryan Pereira Lima</p>
 
             </div>
             <div class="contact-bottom">
 
                 <img src="img/imgGit.png">
-                <p class="textsContact">@ryanpzr</p>
+                <p class="textsContact" data-texto="github">@ryanpzr</p>
 
             </div>
 

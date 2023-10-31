@@ -44,7 +44,22 @@ const idiomas = {
     'pt-BR': {
         'cardapioMC': 'Cardápio Online',
         'catalogoAL': 'Catálogo Agulha e Linha',
-        'sobreMim': 'Sobre mim'
+        'sobreMim': 'Sobre mim',
+        'mainH1': 'Olá, meu nome é',
+        'mainH1name': 'Ryan Pereira Lima',
+        'mainP': 'Sou desenvolvedor Web e apaixonado por técnologia.',
+        'aboutMe...': 'Sobre mim...',
+        'aboutMeP01': 'Fazer',
+        'aboutMeP02': 'Fazer',
+        'aboutMeP03': 'Fazer',
+        'hireMe': 'Contrate-me',
+        'resume': 'Currículo',
+        'projects': 'Projetos',
+        'contact': 'Contate-me',
+        'email': 'ryanpereiralimads@gmail.com',
+        'number': '(48) 99648-0085',
+        'linkedin': 'Ryan Pereira Lima',
+        'github': '@ryanpzr'
     },
 
     'en-US': {
@@ -52,6 +67,21 @@ const idiomas = {
         'cardapioMC': 'Menu Online',
         'catalogoAL': 'Catalog Agulha e Linha',
         'sobreMim': 'About me',
+        'mainH1': 'Hi, my name is',
+        'mainH1name': 'Ryan Pereira Lima',
+        'mainP': 'Im a Web developer and passionate about technology.',
+        'aboutMe...': 'About Me...',
+        'aboutMeP01': 'Fazer',
+        'aboutMeP02': 'Fazer',
+        'aboutMeP03': 'Fazer',
+        'hireMe': 'Hire Me',
+        'resume': 'Resume',
+        'projects': 'Projects',
+        'contact': 'Contact Me',
+        'email': 'ryanpereiralimads@gmail.com',
+        'number': '(48) 99648-0085',
+        'linkedin': 'Ryan Pereira Lima',
+        'github': '@ryanpzr'
 
     }
 
