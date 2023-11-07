@@ -69,11 +69,11 @@ const idiomas = {
         'sobreMim': 'About me',
         'mainH1': 'Hi, my name is',
         'mainH1name': 'Ryan Pereira Lima',
-        'mainP': 'Im a Web developer and passionate about technology.',
+        'mainP': 'I am a Web developer and passionate about technology.',
         'aboutMe...': 'About Me...',
-        'aboutMeP01': 'Fazer',
-        'aboutMeP02': 'Fazer',
-        'aboutMeP03': 'Fazer',
+        'aboutMeP01': 'Hi, my name is Ryan and I am 19 years old. I started my journey in the job market as a Young Apprentice at ENGIE BRASIL witch 17 years old, and my career goal is to work for a company that focuses on technology and programming. ',
+        'aboutMeP02': 'I am studying Computer Science at University of Southem Santa Catarina, I have knowledge in developing with HTML, CSS, JavaScript, Java, NodeJS and Mysql.',
+        'aboutMeP03': 'I recognize myself as a great enthusiast of new technologies on the market, with learning acquired day after day and a huge desire to stand out in the work environment.',
         'hireMe': 'Hire Me',
         'resume': 'Resume',
         'projects': 'Projects',
@@ -88,7 +88,7 @@ const idiomas = {
 
 }
 
-let currentLanguage = 'pt-BR'; 
+let currentLanguage = 'pt-BR';
 
 const buttonMudarIdioma = document.querySelector('.lenguage');
 const imgBR = document.getElementById('imgBr');
@@ -97,7 +97,7 @@ imgEUA.style.display = "none";
 
 buttonMudarIdioma.addEventListener('click', function () {
 
-    
+
     if (currentLanguage === 'pt-BR') {
         currentLanguage = 'en-US';
         imgBR.style.display = "none";
@@ -106,14 +106,14 @@ buttonMudarIdioma.addEventListener('click', function () {
         currentLanguage = 'pt-BR';
         imgEUA.style.display = "none";
         imgBR.style.display = "block";
-        
+
     }
     atualizarIdioma();
 
 })
 
 function atualizarIdioma() {
-    
+
     const elementosComTexto = document.querySelectorAll('[data-texto]');
     elementosComTexto.forEach(elemento => {
         const chave = elemento.dataset.texto;
