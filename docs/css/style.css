@@ -1028,7 +1028,7 @@
 
         width: 35vw;
         display: block;
-        margin-top: 8%;
+        margin-top: 6%;
 
 
     }
@@ -1288,7 +1288,7 @@
 
     .navProjectsLink {
 
-        font-size: 2vw;
+        font-size: 1.5vw;
         font-family: 'Open Sans', sans-serif;
         text-decoration: none;
         color: white;
@@ -1297,7 +1297,6 @@
 
     .navProjectsLink:hover {
 
-        font-size: 2vw;
         font-family: 'Open Sans', sans-serif;
         text-decoration: none;
         color: #F2C500;
@@ -1413,14 +1412,14 @@
     .main-right {
 
         width: 35vw;
-        margin-top: 6%;
+        margin-top: 4%;
         display: block;
 
     }
 
     .imgPessoal {
 
-        width: 90%;
+        width: 85%;
         border: 1px solid #F2C500;
 
     }
