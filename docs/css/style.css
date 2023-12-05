@@ -424,6 +424,13 @@
         /* Centralize os cards horizontalmente */
     }
 
+    .main-left {
+
+        width: 100vw;
+        margin-top: 0%;
+
+    }
+
     .card {
         width: 40vw;
         height: auto;
