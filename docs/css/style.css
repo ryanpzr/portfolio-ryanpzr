@@ -214,7 +214,7 @@
     .buttonAboutMe {
 
         display: inline;
-        width: 50%;
+        width: 40%;
         height: 7%;
         margin-top: 10%;
         font-size: 5vw;
@@ -230,7 +230,8 @@
 
         width: 16%;
         padding: 0%;
-        margin: 0%;
+        margin: 2%;
+
     }
 
     .aboutMe-right {
@@ -400,12 +401,13 @@
     .buttonAboutMe {
 
         display: inline;
-        width: 30%;
+        width: 40%;
         height: 7%;
         margin-top: 10%;
-        font-size: 3vw;
+        font-size: 5vw;
+        padding: 0%;
         border: 3px solid #F2C500;
-        margin-left: 4%;
+        margin-left: 8%;
         color: white;
         background-color: black;
         cursor: pointer;
@@ -413,9 +415,10 @@
 
     .imgContact {
 
-        width: 25%;
+        width: 16%;
         padding: 0%;
-        margin: 0%;
+        margin: 2%;
+
     }
 
     .projects {
@@ -756,9 +759,9 @@
 
     .imgContact {
 
-        width: 18%;
+        width: 14%;
         padding: 0%;
-        margin: 0%;
+        margin: 2.5%;
     }
 
     .aboutMe-right {
@@ -1136,9 +1139,9 @@
 
     .imgContact {
 
-        width: 16%;
+        width: 12%;
         padding: 0%;
-        margin: 0%;
+        margin: 2.5%;
     }
 
     .aboutMe-right {
@@ -1541,9 +1544,9 @@
 
     .imgContact {
 
-        width: 16%;
+        width: 12%;
         padding: 0%;
-        margin: 0%;
+        margin: 3%;
     }
 
     .buttonAboutMe:hover {
