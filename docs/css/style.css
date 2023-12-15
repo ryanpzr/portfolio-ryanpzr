@@ -214,15 +214,23 @@
     .buttonAboutMe {
 
         display: inline;
+        width: 50%;
+        height: 7%;
         margin-top: 10%;
         font-size: 5vw;
-        padding: 0.5% 4%;
+        padding: 0%;
         border: 3px solid #F2C500;
         margin-left: 8%;
         color: white;
         background-color: black;
-        align-items: center;
         cursor: pointer;
+    }
+
+    .imgContact {
+
+        width: 16%;
+        padding: 0%;
+        margin: 0%;
     }
 
     .aboutMe-right {
@@ -387,6 +395,27 @@
 
         padding-top: 18%;
 
+    }
+
+    .buttonAboutMe {
+
+        display: inline;
+        width: 30%;
+        height: 7%;
+        margin-top: 10%;
+        font-size: 3vw;
+        border: 3px solid #F2C500;
+        margin-left: 4%;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .imgContact {
+
+        width: 25%;
+        padding: 0%;
+        margin: 0%;
     }
 
     .projects {
@@ -714,15 +743,22 @@
     .buttonAboutMe {
 
         display: inline;
-        margin-top: 8%;
-        font-size: 2vw;
-        padding: 0.5% 4%;
+        width: 30%;
+        height: 10%;
+        margin-top: 10%;
+        font-size: 3vw;
         border: 3px solid #F2C500;
-        margin-left: 3%;
+        margin-left: 4%;
         color: white;
         background-color: black;
-        align-items: center;
         cursor: pointer;
+    }
+
+    .imgContact {
+
+        width: 18%;
+        padding: 0%;
+        margin: 0%;
     }
 
     .aboutMe-right {
@@ -1087,15 +1123,22 @@
     .buttonAboutMe {
 
         display: inline;
-        margin-top: 8%;
-        font-size: 2vw;
-        padding: 0.5% 4%;
+        width: 30%;
+        height: 10%;
+        margin-top: 10%;
+        font-size: 3vw;
         border: 3px solid #F2C500;
-        margin-left: 3%;
+        margin-left: 4%;
         color: white;
         background-color: black;
-        align-items: center;
         cursor: pointer;
+    }
+
+    .imgContact {
+
+        width: 16%;
+        padding: 0%;
+        margin: 0%;
     }
 
     .aboutMe-right {
@@ -1471,15 +1514,36 @@
     .buttonAboutMe {
 
         display: inline;
-        margin-top: 8%;
-        font-size: 1.5vw;
-        padding: 0.5% 4%;
+        width: 25%;
+        height: 10%;
+        margin-top: 10%;
+        font-size: 2vw;
         border: 3px solid #F2C500;
-        margin-left: 3%;
+        margin-left: 4%;
         color: white;
         background-color: black;
-        align-items: center;
         cursor: pointer;
+    }
+
+    .buttonAboutMe:hover {
+
+        display: inline;
+        width: 25%;
+        height: 10%;
+        margin-top: 10%;
+        font-size: 2vw;
+        border: 3px solid white;
+        margin-left: 4%;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .imgContact {
+
+        width: 16%;
+        padding: 0%;
+        margin: 0%;
     }
 
     .buttonAboutMe:hover {

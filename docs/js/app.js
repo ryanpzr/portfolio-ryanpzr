@@ -3,7 +3,7 @@ function contact() {
 }
 
 function resume() {
-    window.open('https://drive.google.com/file/d/14y_FTAYxMtnvMUORlvRNl5YBDeJE2ZIP/view?usp=drive_link');
+    window.open('https://www.linkedin.com/in/ryan-pereira-lima/');
 }
 
 function irGitLP() {
