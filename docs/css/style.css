@@ -215,12 +215,12 @@
 
         display: inline;
         width: 40%;
-        height: 7%;
+        height: auto;
         margin-top: 10%;
         font-size: 5vw;
-        padding: 0%;
+        padding: 2% 1%;
         border: 3px solid #F2C500;
-        margin-left: 8%;
+        margin-left: 3%;
         color: white;
         background-color: black;
         cursor: pointer;
@@ -228,9 +228,8 @@
 
     .imgContact {
 
-        width: 16%;
+        width: 14%;
         padding: 0%;
-        margin: 2%;
 
     }
 
@@ -402,12 +401,12 @@
 
         display: inline;
         width: 40%;
-        height: 7%;
+        height: auto;
         margin-top: 10%;
         font-size: 5vw;
-        padding: 0%;
+        padding: 2% 1%;
         border: 3px solid #F2C500;
-        margin-left: 8%;
+        margin-left: 3%;
         color: white;
         background-color: black;
         cursor: pointer;
@@ -415,9 +414,8 @@
 
     .imgContact {
 
-        width: 16%;
+        width: 14%;
         padding: 0%;
-        margin: 2%;
 
     }
 
@@ -746,12 +744,13 @@
     .buttonAboutMe {
 
         display: inline;
-        width: 30%;
-        height: 10%;
+        width: 20%;
+        height: auto;
         margin-top: 10%;
-        font-size: 3vw;
+        font-size: 2.5vw;
+        padding: 1% 1%;
         border: 3px solid #F2C500;
-        margin-left: 4%;
+        margin-left: 3%;
         color: white;
         background-color: black;
         cursor: pointer;
@@ -761,7 +760,7 @@
 
         width: 14%;
         padding: 0%;
-        margin: 2.5%;
+
     }
 
     .aboutMe-right {
@@ -1126,12 +1125,13 @@
     .buttonAboutMe {
 
         display: inline;
-        width: 30%;
-        height: 10%;
+        width: 20%;
+        height: auto;
         margin-top: 10%;
-        font-size: 3vw;
+        font-size: 2vw;
+        padding: 1% 1%;
         border: 3px solid #F2C500;
-        margin-left: 4%;
+        margin-left: 3%;
         color: white;
         background-color: black;
         cursor: pointer;
@@ -1141,7 +1141,7 @@
 
         width: 12%;
         padding: 0%;
-        margin: 2.5%;
+
     }
 
     .aboutMe-right {
@@ -1517,12 +1517,13 @@
     .buttonAboutMe {
 
         display: inline;
-        width: 25%;
-        height: 10%;
+        width: 20%;
+        height: auto;
         margin-top: 10%;
-        font-size: 2vw;
+        font-size: 1.4vw;
+        padding: 1% 1%;
         border: 3px solid #F2C500;
-        margin-left: 4%;
+        margin-left: 3%;
         color: white;
         background-color: black;
         cursor: pointer;
@@ -1531,12 +1532,13 @@
     .buttonAboutMe:hover {
 
         display: inline;
-        width: 25%;
-        height: 10%;
+        width: 20%;
+        height: auto;
         margin-top: 10%;
-        font-size: 2vw;
+        font-size: 1.4vw;
+        padding: 1% 1%;
         border: 3px solid white;
-        margin-left: 4%;
+        margin-left: 3%;
         color: white;
         background-color: black;
         cursor: pointer;
@@ -1544,23 +1546,9 @@
 
     .imgContact {
 
-        width: 12%;
+        width: 8%;
         padding: 0%;
-        margin: 3%;
-    }
 
-    .buttonAboutMe:hover {
-
-        display: inline;
-        margin-top: 8%;
-        font-size: 1.5vw;
-        padding: 0.5% 4%;
-        border: 3px solid white;
-        margin-left: 3%;
-        color: white;
-        background-color: black;
-        align-items: center;
-        cursor: pointer;
     }
 
     .aboutMe-right {
