@@ -72,7 +72,7 @@ const idiomas = {
         'mainP': 'I am a Web developer and passionate about technology.',
         'aboutMe...': 'About Me...',
         'aboutMeP01': 'Hi, my name is Ryan, and I am 19 years old. I have started my journey in the job market as a young apprentice at ENGIE BRASIL when I was 17  and my career goal is to work for a company that focuses on technology and programming. ',
-        'aboutMeP02': 'I have been an undergraduate student in  computer science at UNISUL ( University of South Santa Catarina). I have a lot of  knowledge in developing with HTML, CSS, JavaScript, Java, Node.js and MySQL.',
+        'aboutMeP02': 'I have been an undergraduate student in  computer science at UNISUL ( University of South Santa Catarina). I have a lot of  knowledge in developing with HTML, CSS, JavaScript, Java, Spring-Boot and MySQL.',
         'aboutMeP03': 'I see myself  as a team player, a great enthusiastic in  new technologies on the market, with learning acquired skills on a daily basis, plus an enormous desire to stand out in the work environment.',
         'hireMe': 'Hire Me',
         'resume': 'Resume',
